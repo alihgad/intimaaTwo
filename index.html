@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTIMA </title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+          <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+    <link rel="stylesheet" href="dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body style="background-image: url('imgs/v748-toon-106.png');" class="bg-cover bg-center bg-no-repeat " class="cairo">
+  
+
+
+ <header class="fixed top-0 left-0 right-0 z-50 ">
+<div class="w-5/6 mx-auto">
+  <div class="bg-transparent mt-2 backdrop-blur-sm border-b border-sky-500" dir="rtl">
+  <div class="container mx-auto px-4 py-2">
+    <div class="flex justify-between items-center text-sm ">
+      
+      <div class="flex items-center gap-2">
+        <span class="text-gray-300">عربي</span>
+        <span class="text-gray-300">|</span>
+        <span class="text-gray-300">EN</span>
+      </div>
+
+    <div class="flex items-center gap-2" dir="rtl">
+  <div class="flex items-center gap-2">
+    <span class="block  text-blue-800 hover:text-sky-500 transition duration-200 ease-in-out transform  hover:scale-105 ">تواصل معنا</span>
+  </div>
+  <span class="text-sky-500">|</span>
+  <div class="flex items-center gap-2">
+    
+    <span class="text-blue-800 hover:text-white transition duration-200">+966 50 123 4567</span>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<nav class="bg-transparent text-blue-800" dir="rtl">
+  <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+    <!-- Right: Logo + Links -->
+    <div class="flex items-center gap-8">
+      <!-- Logo -->
+      <img src="imgs/Group 473.png" alt="Logo" class="h-8 w-auto" />
+
+      <!-- Desktop Links -->
+      <div class="hidden lg:flex items-center gap-3 font-medium">
+        <a href="#" class="transition hover:text-sky-500 hover:scale-110">الرئيسية</a>
+        <span class="text-sky-500 select-none">|</span>
+
+        <!-- Dropdown -->
+        <div class="relative group">
+          <button class="flex items-center gap-1 px-2 py-1 hover:text-sky-500 hover:bg-blue-950 transition hover:scale-110">
+            الخدمات الاسعار
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="absolute top-full left-[-6px] mt-1 w-64 bg-blue-950 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 text-right z-20">
+            <a href="#" class="block px-4 py-2 text-gray-300 hover:text-white hover:bg-sky-500">مسار الوظائف القيادية التنفيذيه</a>
+            <a href="#" class="block px-4 py-2 text-gray-300 hover:text-white hover:bg-sky-500">مسار الوظائف الاداريه الفنيه</a>
+            <a href="#" class="block px-4 py-2 text-gray-300 hover:text-white hover:bg-sky-500">مسار الصفوف الاوليه</a>
+          </div>
+        </div>
+
+        <span class="text-blue-400 select-none">|</span>
+        <a href="#" class="transition hover:text-sky-500 hover:scale-110">إعلان الوظائف</a>
+        <span class="text-sky-500 select-none">|</span>
+        <a href="#" class="transition hover:text-sky-500 hover:scale-110">الباحثون عن العمل</a>
+      </div>
+    </div>
+
+    <!-- Mobile/Tablet Toggle Button -->
+    <button id="menu-toggle" class="lg:hidden focus:outline-none">
+      <svg class="w-6 h-6 text-blue-800" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <!-- Left: Login/Register (Desktop only) -->
+    <div class="hidden lg:flex items-center gap-2">
+      <a href="#" class="text-blue-800 font-light hover:text-sky-500 hover:translate-x-1">تسجيل الدخول</a>
+      <button class="bg-sky-500 text-white text-xs px-4 py-1 rounded-full hover:scale-105 transition">حساب جديد</button>
+    </div>
+  </div>
+
+  <!-- Mobile/Tablet Menu -->
+  <div id="mobile-menu" class="lg:hidden hidden px-4 pb-4 text-right space-y-3 bg-blue-800 rounded-lg text-white">
+    <a href="#" class="block hover:text-sky-500 pb-2 pt-3">الرئيسية</a>
+    <details class="group">
+      <summary class="cursor-pointer hover:text-sky-500 pb-2">الخدمات الاسعار</summary>
+      <div class="pl-4 space-y-2 text-sm text-gray-300 pb-2">
+        <a href="#" class="block hover:text-sky-500 pb-2">مسار الوظائف القيادية التنفيذيه</a>
+        <a href="#" class="block hover:text-sky-500 pb-2">مسار الوظائف الاداريه الفنيه</a>
+        <a href="#" class="block hover:text-sky-500 pb-2">مسار الصفوف الاوليه</a>
+      </div>
+    </details>
+    <a href="#" class="block hover:text-sky-400 pb-2">إعلان الوظائف</a>
+    <a href="#" class="block hover:text-sky-400 pb-2">الباحثون عن العمل</a>
+    <hr class="border-sky-500" />
+    <a href="#" class="block hover:text-sky-400 pb-2">تسجيل الدخول</a>
+    <button class="w-full bg-sky-500 text-white px-4 py-1  rounded-full mb-3">حساب جديد</button>
+  </div>
+</nav>
+</div>
+</header> 
+
+
+
+  <div class="w-5/6 mx-auto pt-28">
+       <div class="relative w-fit mx-auto mb-2">
+  <!-- Gradient behind the heading -->
+  <div class="absolute left-0 top-8 bottom-0 right-4  h-5 bg-gradient-to-r from-transparent to-sky-500  -z-10 sm:left-0 sm:right-4"></div>
+
+  <!-- Heading Text -->
+  <h1 class="relative text-blue-800 text-2xl font-bold text-center px-6 py-3">   قواعد البيانات المفتوحة </h1>
+</div>
+<p class="text-center text-gray-400">   نوفر لك الموظف المثالي ... من بين ملايين</p>
+  </div>
+
+
+
+    <div class="w-3/4 mx-auto mt-5">
+  <div class="  rounded-3xl p-8 text-center bg-cover bg-center" style="background-image: url('imgs/Group\ 466.png');">
+        <h3 class="text-2xl font-bold text-white mb-6">انضم لقائمة المرشحين وزد فرصة عرض بياناتك على اصحاب العمل</h3>
+        <button class="bg-white text-blue-800 px-8 py-2 rounded-full hover:bg-blue-50 transition-colors text-lg font-medium">
+          تقدم هنا
+        </button>
+      </div>
+</div>
+
+
+
+
+
+<div class="w-11/12 mx-auto">
+  <div class="container mx-auto px-4 py-8">
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-4 mb-8">
+      <!-- Search Input -->
+      <div class="relative w-full sm:flex-1 md:flex-[2] min-w-[200px]">
+        <input
+          type="text"
+          placeholder="البحث"
+          class="w-full px-4 py-2 border rounded-lg pl-10"
+        />
+        <svg
+          class="w-5 h-5 absolute left-3 top-2.5 text-gray-400"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          />
+        </svg>
+      </div>
+
+      <!-- التخصص -->
+      <select class="w-full sm:flex-1 min-w-[150px] px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-500">
+        <option value="">التخصص</option>
+        <option value="">تسويق</option>
+        <option value="design">تصميم</option>
+      </select>
+
+      <!-- city -->
+      <select class="w-full sm:flex-1 min-w-[150px] px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-500">
+        <option value="">المدينة</option>
+        <option value="riyadh">الرياض</option>
+        <option value="madinah">المدينة المنورة</option>
+      </select>
+
+      <!-- exp -->
+      <select class="w-full sm:flex-1 min-w-[150px] px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-500">
+        <option value="">الخبره</option>
+        <option value="job">أقل من سنتين</option>
+        <option value="pricing">ثلاث سنوات</option>
+      </select>
+
+      <!-- eval -->
+      <select class="w-full sm:flex-1 min-w-[150px] px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-500">
+        <option value="">تقييم</option>
+        <option value="5">★★★★★</option>
+        <option value="4">★★★★☆</option>
+        <option value="3">★★★☆☆</option>
+      </select>
+    </div>
+
+    <!-- Table -->
+   <!--  Table -->
+<div class="w-full overflow-x-auto">
+  <table class="min-w-[900px] w-full whitespace-nowrap">
+    <thead class="bg-cyan-200">
+      <tr>
+        <th class="px-4 py-3 text-right text-blue-900">الاسم</th>
+        <th class="px-4 py-3 text-right text-blue-900">التخصص</th>
+        <th class="px-4 py-3 text-right text-blue-900">المنطقة</th>
+        <th class="px-4 py-3 text-right text-blue-900">الخبرة</th>
+        <th class="px-4 py-3 text-right text-blue-900">تقييم</th>
+        <th class="px-4 py-3 text-right text-blue-900">جوال</th>
+        <th class="px-4 py-3 text-right text-blue-900">ايميل</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      <tr class="border-b hover:bg-gray-50">
+        <td class="px-4 py-3">
+          <div class="flex items-center gap-3">
+            <img src="imgs/DeWatermark.ai_1738537930081.png" alt="profile" class="w-8 h-8 rounded-full object-cover" />
+            <span class="text-gray-500">محمد</span>
+          </div>
+        </td>
+        <td class="px-4 py-3 text-gray-500">مصمم جرافيك</td>
+        <td class="px-4 py-3 text-gray-500">الرياض</td>
+        <td class="px-4 py-3 text-gray-500">10 سنوات</td>
+        <td class="px-4 py-3 text-gray-500">
+          <div class="flex text-yellow-400">★★★★★</div>
+        </td>
+        <td class="px-4 py-3 text-gray-500">966779662755+</td>
+        <td class="px-4 py-3 text-gray-500">info@gmail.com</td>
+      </tr>
+        <tr class="border-b hover:bg-gray-50">
+        <td class="px-4 py-3">
+          <div class="flex items-center gap-3">
+            <img src="imgs/DeWatermark.ai_1738537930081.png" alt="profile" class="w-8 h-8 rounded-full object-cover" />
+            <span class="text-gray-500">محمد</span>
+          </div>
+        </td>
+        <td class="px-4 py-3 text-gray-500">مصمم جرافيك</td>
+        <td class="px-4 py-3 text-gray-500">الرياض</td>
+        <td class="px-4 py-3 text-gray-500">10 سنوات</td>
+        <td class="px-4 py-3 text-gray-500">
+          <div class="flex text-yellow-400">★★★★★</div>
+        </td>
+        <td class="px-4 py-3 text-gray-500">966779662755+</td>
+        <td class="px-4 py-3 text-gray-500">info@gmail.com</td>
+      </tr>
+        <tr class="border-b hover:bg-gray-50">
+        <td class="px-4 py-3">
+          <div class="flex items-center gap-3">
+            <img src="imgs/DeWatermark.ai_1738537930081.png" alt="profile" class="w-8 h-8 rounded-full object-cover" />
+            <span class="text-gray-500">محمد</span>
+          </div>
+        </td>
+        <td class="px-4 py-3 text-gray-500">مصمم جرافيك</td>
+        <td class="px-4 py-3 text-gray-500">الرياض</td>
+        <td class="px-4 py-3 text-gray-500">10 سنوات</td>
+        <td class="px-4 py-3 text-gray-500">
+          <div class="flex text-yellow-400">★★★★★</div>
+        </td>
+        <td class="px-4 py-3 text-gray-500">966779662755+</td>
+        <td class="px-4 py-3 text-gray-500">info@gmail.com</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+
+    <!-- Load More Button -->
+    <div class="flex justify-center items-center py-5">
+      <button class="bg-gray-400 text-white rounded-xl px-5 py-1 transition-all duration-300 ease-in-out hover:px-7 hover:bg-green-500 hover:scale-105">
+        المزيد
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<footer class="rounded-t-3xl mt-14 bg-cover bg-center bg-no-repeat" style="background-image: url('imgs/Group\ 478.png');">
+  <div class="container mx-auto px-4 sm:px-6 md:px-8 py-12">
+    <div class="w-full md:w-5/6 mx-auto">
+
+      <!-- Row 1: Social Links -->
+      <div class="flex flex-col md:flex-row md:justify-end items-center gap-4 mb-8 text-center md:text-right">
+        <h3 class="text-white font-bold text-lg mb-0">تابعونا على</h3>
+        <div class="flex justify-center md:justify-end gap-2">
+          <div class="w-10 h-10 flex items-center justify-center border-2 border-white rounded-full">
+            <a href="#" class="bg-transparent text-white  p-2 ">
+           <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+           <div class="w-10 h-10 flex items-center justify-center border-2 border-white rounded-full">
+            <a href="#" class="bg-transparent text-white  p-2 ">
+              <i class="fa-brands fa-instagram"></i>
+          </a>
+          </div>
+           <div class="w-10 h-10 flex items-center justify-center border-2 border-white rounded-full">
+          <a href="#" class="bg-transparent text-white p-2 ">
+          <i class="fa-brands fa-twitter"></i>
+          </a>
+          </div>
+           <div class="w-10 h-10 flex items-center justify-center border-2 border-white rounded-full">
+         <a href="#" class="bg-transparent text-white  p-2 ">
+           <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          </div>
+         
+        
+          
+          
+        </div>
+      </div>
+
+      <!-- Row 2: Links + Contact Info -->
+      <div class="flex flex-col md:flex-row justify-between gap-8 border-b border-white pb-8">
+
+        <!-- Quick Links -->
+        <div class="w-full md:w-3/4 text-center md:text-right ">
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-white transition-transform duration-300 transform hover:scale-110">الرئيسية</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-transform duration-300 transform hover:scale-110">الخدمات والأسعار</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-transform duration-300 transform hover:scale-110">إعلان الوظائف</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-white transition-transform duration-300 transform hover:scale-110">الباحثون عن العمل</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="w-full md:w-3/4 space-y-4 text-center md:text-left">
+          <div class="flex px-2 sm:flex-row items-center justify-center md:justify-end gap-2 text-white">
+            <span dir="ltr">+966 500 432 555</span>
+          <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="flex px-2 sm:flex-row items-center justify-center md:justify-end gap-2 text-white">
+            <span>E-mail: HR@1ar.sa</span>
+          <i class="fa-regular fa-envelope"></i>
+          </div>
+     <div class="flex px-2 sm:flex-row items-start  justify-center md:justify-end gap-2 text-white">
+  <div class="text-center sm:text-left">
+    <span>Al Thumamh Rd., Al Rabea</span><br>
+    <span>Riyadh, Saudi Arabia</span>
+  </div>
+  <i class="fa-solid fa-location-dot md:mb-4"></i>
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Bottom Footer -->
+
+<div class="container">
+  <div class="w-5/6 mx-auto">
+    <div class="flex justify-between items-center p-3">
+      <img src="imgs/Group 472.png" alt="Intima Logo" class="h-8" />
+      <p class="text-gray-400 text-sm">© 2024 جميع الحقوق محفوظة لشركة انتماء</p>
+    </div>
+</div>
+</div>
+
+
+ 
+
+
+    <script src="dist/index.js"></script>
+</body>
+</html>
